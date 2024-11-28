@@ -64,7 +64,7 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Lucas Martin";
+    document.title = "Portfolio | Ivan Cherenkevych";
     $("#favicon").attr("href", "assets/images/favicon.png");
   } else {
     document.title = "Come Back To Portfolio";
@@ -74,7 +74,7 @@ document.addEventListener("visibilitychange", function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["Android Development", "iOS Development", "Web Development"],
+  strings: ["Android Development", "iOS Development", "AI Engineer"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
